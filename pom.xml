@@ -37,7 +37,7 @@
 		</repository>
   	</distributionManagement>
 	
-	<pluginRepositories>
+	<!--<pluginRepositories>
 	    <pluginRepository>    
 		<id>maven1</id>
 		<name>Maven.org</name>
@@ -45,7 +45,7 @@
 	    </pluginRepository>
 	</pluginRepositories>
 	<plugins>
-      <plugin>
+      <plugin> -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.11.0</version>
