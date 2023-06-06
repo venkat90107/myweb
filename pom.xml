@@ -9,10 +9,10 @@
 	<url>http://maven.apache.org</url>
 	
 	<properties>
-		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
-
-	</properties>
+          <maven.compiler.source>1.8</maven.compiler.source>
+          <maven.compiler.target>1.8</maven.compiler.target>
+        </properties>
+	
 	<dependencies>
 
 		
@@ -37,24 +37,13 @@
 		</repository>
   	</distributionManagement>
 	
-	<!--<pluginRepositories>
-	    <pluginRepository>    
-		<id>maven1</id>
-		<name>Maven.org</name>
-		<url>http://repo1.maven.org/maven2</url>
-	    </pluginRepository>
-	</pluginRepositories> -->
-        <plugins>
-	  <plugin>
-	    <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-	    <version>3.11.0</version>
-	    <configuration>
-              <source>1.8</source>
-	      <target>1.8</target>
-	    </configuration>
-	  </plugin>
-        </plugins>
+	<pluginRepositories>
+	  <pluginRepository>    
+	    <id>maven1</id>
+	    <name>Maven.org</name>
+	    <url>http://repo1.maven.org/maven2</url>
+	  </pluginRepository>
+	
 
 	
 </project>
